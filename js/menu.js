@@ -7,7 +7,7 @@ const changeTitle = (restaurant) =>{
     const category = document.querySelector(".category")
     restaurantTitle.textContent = restaurant.name;
     rating.textContent = restaurant.stars
-    price.textContent = restaurant.price
+    price.textContent = `От ${restaurant.price} Р`
     category.textContent = restaurant.category 
 }
 const renderItems = (data) =>{
