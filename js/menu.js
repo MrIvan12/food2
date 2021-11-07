@@ -55,7 +55,7 @@ if(localStorage.getItem('restaurants')){
     console.log(error);
     })}else{
         alert("Вы должны быть зарегестрированы");
-        window.location.href = '/'
+        window.location.href = 'index.html'
         
         
         
