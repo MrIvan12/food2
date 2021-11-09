@@ -61,5 +61,5 @@ if(localStorage.getItem('restaurants')){
         
     }
 }else{
-    window.location.href = '/'
+    window.location.href = './'
 }
